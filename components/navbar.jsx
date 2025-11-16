@@ -55,14 +55,7 @@ export async function Navbar() {
                   </form>
                 </div>
               </>
-            ) : (
-              <Link
-                href="/signin"
-                className="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-6 py-2.5 rounded-lg font-bold transition-all duration-200 shadow-lg hover:shadow-xl border border-cyan-400/50"
-              >
-                Sign In
-              </Link>
-            )}
+            ) : null}
           </div>
         </div>
       </div>
